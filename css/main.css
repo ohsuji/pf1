@@ -24,11 +24,12 @@ main {
   justify-content: space-between;
   column-gap: 20px;
   text-align: center;
+  flex-wrap: wrap;
   }
 
-  main section#taste div.inner ul.list li {
+  #taste .inner ul.list li {
   /*! border: 1px solid #847d7d; */
-  width: calc(100% / 6);
+  width: calc((100% / 6) - (50px / 6));  
   box-sizing: border-box;
   transition: all 0.5s ease; 
   }
