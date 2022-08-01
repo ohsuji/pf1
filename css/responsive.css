@@ -46,13 +46,12 @@
     flex-wrap: wrap;
   }
   #shop .inner ul.list li{  
-  width: calc(100% / 3 - 10px / 3);
+  width: calc(100% / 3 - 50px / 3);
   }
   /*  커뮤니티  */
   #community .inner > article{
   width: 90%;
   }
-
   #community .inner div article ul li{
   width: calc(100%);
   line-height: 1.5;
